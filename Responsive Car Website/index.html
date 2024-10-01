@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--==================== METADATOS ====================-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="WebPages">
+  <meta name="keywords" content="HTML-CSS-JS">
+  <meta name="author" content="Rocio Cuello">
+
+  <!--=============== SWIPER CSS===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--==================== TITULO ====================-->
+  <title>WebPages | Responsive Car Website</title>
+
+  <!--==================== ICONO DE PESTAÑA ====================-->
+  <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">RaceCar</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Patrocinadores</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Canales de TV</a>
+          </li>
+          <li>
+            <a href="#" class="nav__link">Contáctanos</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+  <!--==================== HOME ====================-->
+  <section class="home">
+    <div class="home__swiper swiper">
+      <div  class="swiper-wrapper">
+        <article class="home__article car__orange swiper-slide">
+          <div class="home__panel-1"></div>
+          <div class="home__panel-2"></div>
+          <div class="home__content container">
+            <div class="home__data">
+              <div class="home__titles">
+                <h3 class="home__subtitle">Vamos a</h3>
+                <h1 class="home__title">CORRER</h1>
+              </div>
+              <div class="home__images">
+                <img src="assets/img/car-1.png" alt="" class="home__img">
+              </div>
+            </div>
+            <div class="home__info">
+              <div class="home__specs">
+                <span>302 MPH</span>
+                <span>0 - 100 KM/H</span>
+                <span>360 KW</span>
+              </div>
+              <a href="#" class="home__button">
+                <span>Descubre Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="home__article car__green swiper-slide">
+          <div class="home__panel-1"></div>
+          <div class="home__panel-2"></div>
+          <div class="home__content container">
+            <div class="home__data">
+              <div class="home__titles">
+                <h3 class="home__subtitle">Vamos a</h3>
+                <h1 class="home__title">CORRER</h1>
+              </div>
+              <div class="home__images">
+                <img src="assets/img/car-2.png" alt="" class="home__img">
+              </div>
+            </div>
+            <div class="home__info">
+              <div class="home__specs">
+                <span>302 MPH</span>
+                <span>0 - 100 KM/H</span>
+                <span>360 KW</span>
+              </div>
+              <a href="#" class="home__button">
+                <span>Descubre Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="home__article car__blue swiper-slide">
+          <div class="home__panel-1"></div>
+          <div class="home__panel-2"></div>
+          <div class="home__content container">
+            <div class="home__data">
+              <div class="home__titles">
+                <h3 class="home__subtitle">Vamos a</h3>
+                <h1 class="home__title">CORRER</h1>
+              </div>
+              <div class="home__images">
+                <img src="assets/img/car-3.png" alt="" class="home__img">
+              </div>
+            </div>
+            <div class="home__info">
+              <div class="home__specs">
+                <span>302 MPH</span>
+                <span>0 - 100 KM/H</span>
+                <span>360 KW</span>
+              </div>
+              <a href="#" class="home__button">
+                <span>Descubre Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="home__interaction">
+      <div class="home__social">
+        <div class="home__social-border"></div>
+        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+          <i class="ri-twitter-x-line"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="home__social-link">
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+          <i class="ri-facebook-line"></i>
+        </a>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  </main>
+
+  <!--=============== GSAP JS ===============-->
+  <script src="assets/js/gsap.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--==================== script ====================-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

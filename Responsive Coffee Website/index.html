@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--==================== METADATOS ====================-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="WebPages">
+  <meta name="keywords" content="HTML-CSS-JS">
+  <meta name="author" content="Rocio Cuello">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--==================== TITULO ====================-->
+  <title>WebPages | Responsive Coffee Website</title>
+
+  <!--==================== ICONO DE PESTAÑA ====================-->
+  <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+  <!--==================== REMIXICONS ====================-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <div class="header__border"></div>
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/logo.png" alt="">Coffetto
+      </a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="ri-home-4-fill"></i>
+              <span>Inicio</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="ri-award-fill"></i>
+              <span>Acerca de</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#steps" class="nav__link">
+              <i class="ri-compass-3-fill"></i>
+              <span>Pasos</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#tesimonial" class="nav__link">
+              <i class="ri-message-3-fill"></i>
+              <span>Testimonios</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h3 class="home__subtitle">
+            CALIDAD EXCEPCIONAL
+          </h3>
+          <h1 class="home__title">Es hora de un <br>
+            buen café
+            <img src="assets/img/home-coffee-title.png" alt="">
+          </h1>
+          <p class="home__description">
+            Cada grano de café seleccionado refleja nuestro compromiso 
+            con los caficultores peruanos, quienes llevan el mejor 
+            café seleccionado a tu mesa.
+          </p>
+          <a href="#" class="button">
+            Comenzar<i class="ri-arrow-right-s-line"></i>
+          </a>
+        </div>
+        <img src="assets/img/home-coffee.png" alt="" class="home__img">
+      </div>
+    </section>
+
+    <!--==================== PRODUCTS ====================-->
+    <section class="products">
+      <div class="products__bg section">
+        <div class="products__container container grid">
+          <div class="products__data">
+            <a href="#about" class="products__button">
+              Scroll Down<i class="ri-mouse-line"></i>
+            </a>
+            <p class="products__description">
+              Nos esforzamos por formar asociaciones profundas con agricultores 
+              de todo el mundo para crear perspectivas en conjunto y formar 
+              relaciones laborales saludables basadas en la confianza y el respeto.
+            </p>
+          </div>
+          <div class="products__content">
+            <article class="products__card">
+              <img src="assets/img/product-coffee-1.png" alt="" class="products__img">
+              <h3 class="products__name">Café Clásico</h3>
+              <span class="products__price">$17.90</span>
+            </article>
+            <article class="products__card">
+              <img src="assets/img/product-coffee-2.png" alt="" class="products__img">
+              <h3 class="products__name">Café Negro</h3>
+              <span class="products__price">$24.90</span>
+            </article>
+            <article class="products__card">
+              <img src="assets/img/product-coffee-3.png" alt="" class="products__img">
+              <h3 class="products__name">Café Fuerte</h3>
+              <span class="products__price">$32.90</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+      <div class="about__bg section">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">Nuestra Historia</h2>
+            <p class="about__description">
+              Producimos y cultivamos el mejor café de Perú, acompañando 
+              a las familias desde 1930, con trabajadores profesionales que 
+              cosechan, recolectan y seleccionan el café con un trabajo de calidad, 
+              proporcionando así un café exquisito para disfrutar en familia.
+            </p>
+          </div>
+          <img src="assets/img/about-coffee.png" alt="" class="about__img">
+        </div>
+      </div>
+
+    </section>
+
+    <!--==================== STEPS ====================-->
+    <section class="steps" id="steps">
+      <div class="steps__bg section">
+        <h2 class="section__title">Pasos para fabricar nuestros productos</h2>
+        <div class="steps__container container grid">
+          <img src="assets/img/coffee-beans-bg.png" alt="" class="steps__bg-img">
+          <div class="steps__content">
+            <img src="assets/img/steps-curve-line.svg" alt="" class="steps__border">
+            <div class="steps__card">
+              <div class="steps__circle">
+                <div class="steps__subcircle">
+                  01
+                </div>
+                <img src="assets/img/steps-green-coffee.png" alt="" class="steps__img">
+              </div>
+              <p class="steps__description">
+                La cosecha se realiza anualmente cuando los granos de 
+                café alcanzan la madurez y son recolectados 
+                para su procesamiento.
+              </p>
+            </div>
+            <div class="steps__card steps__card-move">
+              <div class="steps__circle">
+                <div class="steps__subcircle">
+                  02
+                </div>
+                <img src="assets/img/steps-coffee-beans.png" alt="" class="steps__img">
+              </div>
+              <p class="steps__description">
+                Los granos se secan utilizando una técnica húmeda o seca, 
+                dependiendo del sabor que queremos obtener.
+              </p>
+            </div>
+            <div class="steps__card">
+              <div class="steps__circle">
+                <div class="steps__subcircle">
+                  03
+                </div>
+                <img src="assets/img/steps-ground-coffee.png" alt="" class="steps__img">
+              </div>
+              <p class="steps__description">
+                El café se tuesta y adquiere su sabor 
+                al procesar el grano en hornos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial" id="testimonial">
+      <div class="testimonial__bg section">
+        <div class="testimonial__container container grid">
+          <div class="testimonial__data">
+            <h2 class="section__title">
+              El café es la mejor bebida en la 
+              mañana, te mantiene concentrado.
+            </h2>
+            <span class="testimonial__name">
+              Jhon Doe
+            </span>
+          </div>
+          <img src="assets/img/testimonial-coffee.png" alt="" class="testimonial__img">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <img src="assets/img/coffee-beans-bg.png" alt="" class="footer__bg-img">
+      <div class="footer__container container grid">
+        <div class="footer__data grid">
+          <div>
+            <a href="#" class="footer__logo">
+              <img src="assets/img/logo.png" alt="">Coffetto
+            </a>
+            <h3 class="footer__title">
+              Suscríbete a nuestro boletín
+            </h3>
+          </div>
+          <form action="" class="foooter__form grid">
+            <input type="email" placeholder="Ingresa tu dirección de e-mail" class="footer__input">
+            <button class="button footer__button" type="submit">
+              Suscribirse<i class="ri-arrow-right-s-line"></i>
+            </button>
+            <p class="footer__description">
+              Nos importa tu información. Lee nuestra 
+              <a href="#" class="footer__privacy">Política de Privacidad</a>
+            </p>
+          </form>
+        </div>
+        <div class="footer__content grid">
+          <div class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </div>
+          <span class="footer__copy">
+            &#169; Copyright Rocio Cuello. Todos los derechos reservados
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+
+  <!--==================== script ====================-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

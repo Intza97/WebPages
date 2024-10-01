@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #7a0051;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*======= HEADER =======*/
+.header{
+    background: linear-gradient(90deg,rgba(52,0,64,1)0%,rgba(80,0,71,1)50%,rgba(98,0,75,1)100%);
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #eeeff3;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #eeeff3;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #7a0051;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    text-align: center;
+}
+.header-txt h1{
+    font-size: 110px;
+    line-height: 110px;
+    color: #eeeff3;
+    font-family: 'Bebas Neue' ,cursive;
+    margin-bottom: 45px;
+}
+.header-txt img{
+    width: 350px;
+}
+/*======= PRODUCT =======*/
+.products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.products h3{
+    font-size: 22px;
+    color: #eeeff3;
+    margin-bottom: 15px;
+}
+.pr{
+    width: 250px;
+}
+.product-1{
+    text-align: center;
+    padding: 50px;
+    background-color: #40004e;
+}
+.product-2{
+    text-align: center;
+    padding: 50px;
+    background-color: #f20442;
+}
+.product-3{
+    text-align: center;
+    padding: 50px;
+    background-color: #fba301;
+}
+.product-4{
+    text-align: center;
+    padding: 50px;
+    background-color: #01beaa;
+}
+/*====== ABOUT =======*/
+.about{
+    padding: 100px 0;
+    background: linear-gradient(180deg,
+    rgba(67,0,67,1)0%,
+    rgba(76,0,72,1)100%);
+}
+.about-content{
+    display: flex;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 550px;
+}
+.about-txt{
+    width: 50%;
+    padding-right: 250px;
+}
+.about-txt h2{
+    font-size: 40px;
+    line-height: 45px;
+    color: #eeeff3;
+    margin-bottom: 20px;
+}
+.about-txt p{
+    font-size: 16px;
+    color: #a45a93;
+}
+/*======= YOGUR =======*/
+.yogurts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: 0 -20px 40px rgba(0,0,0,0.1);
+}
+.yogurt-1{
+    text-align: center;
+    padding: 50px;
+    background-color: #4d0046;
+}
+.yogurt-1 h3{
+    font-size: 16px;
+    color: #eeeff3;
+    margin-bottom: 20px;
+}
+.yogurt-1 p{
+    font-size: 16px;
+    color: #a45a93;
+}
+.yr{
+    width: 150px;
+}
+/*======= FOOTER =======*/
+.footer{
+    padding: 100px 0 70px 0;
+    text-align: center;
+}
+.footer h2{
+    color: #eeeff3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 16px;
+    color: #a45a93;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.social-link a{
+    font-size: 20px;
+    color: #eeeff3;
+    margin: 0 20px;
+    display: block;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.links a{
+    display: block;
+    color: #eeeff3;
+    margin: 10px 40px;
+}
+/*======= MEDIA =======*/
+@media(max-width:991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #7a0051;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px 30px 30px;
+    }
+    .header-txt h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .header-txt img{
+        width: 250px;
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about{
+        display: 30px;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+        text-align: center;
+    }
+    .about-img img{
+        width: 250px;
+    }
+    .about-txt{
+        text-align: center;
+        width: 100%;
+        padding-right:0 ;
+    }
+    .yogurts{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        padding: 30px;
+    }
+    .links{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--==================== METADATOS ====================-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="WebPages">
+  <meta name="keywords" content="HTML-CSS-JS">
+  <meta name="author" content="Rocio Cuello">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--==================== TITULO ====================-->
+  <title>WebPages | Responsive Gym Website</title>
+
+  <!--==================== ICONO DE PESTAÑA ====================-->
+  <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+  <!--====================  REMIXICON ====================-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/logo-nav.png" alt="">BEROTOT
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#program" class="nav__link">Programa</a>
+          </li>
+          <li class="nav__item">
+            <a href="#choose" class="nav__link">Elíjanos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pricing" class="nav__link">Precios</a>
+          </li>
+          <div class="nav__link">
+            <a href="#footer" class="button nav__button">
+              Regístrate Ahora
+            </a>
+          </div>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>  
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h2 class="home__subtitle">DA FORMA A TU</h2>
+          <h1 class="home__title">CUERPO</h1>
+          <p class="home__description">
+            Aquí te ayudaremos a moldear y construir tu cuerpo ideal y vivir tu vida al máximo.
+          </p>
+          <a href="#" class="button button__flex">
+            Comenzar<i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+        <div class="home__images">
+          <img src="assets/img/home-img.png" alt="" class="home__img">
+          <div class="home__triangle home__triangle-3"></div>
+          <div class="home__triangle home__triangle-2"></div>
+          <div class="home__triangle home__triangle-1"></div>
+        </div>
+      </div> 
+    </section>
+
+    <!--==================== LOGOS ====================-->
+    <section class="logos section">
+      <div class="logos__container container grid">
+        <img src="assets/img/logo1.png" alt="" class="logos__img">
+        <img src="assets/img/logo2.png" alt="" class="logos__img">
+        <img src="assets/img/logo3.png" alt="" class="logos__img">
+        <img src="assets/img/logo4.png" alt="" class="logos__img">
+      </div>
+    </section>
+
+    <!--==================== PROGRAM ====================-->
+    <section class="program section" id="program">
+      <div class="container">
+        <div class="section__data">
+          <h2 class="section__subtitle">Nuestro Programa</h2>
+          <div class="section__titles">
+            <h1 class="section__title-border">CONSTRUYE TU</h1>
+            <h1 class="section__title">MEJOR CUERPO</h1>
+          </div>
+        </div>
+        <div class="program__container grid">
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="assets/img/program1.png" alt="" class="program__img">
+            </div>
+            <h3 class="program__title">Músculo Flexionado</h3>
+            <p class="program__description">
+              Creando tensión que contrae temporalmente las fibras musculares.
+            </p>
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="assets/img/program2.png" alt="" class="program__img">
+            </div>
+            <h3 class="program__title">Ejercicio Cardiovascular</h3>
+            <p class="program__description">
+              Ejercita tu ritmo cardíaco y lo mantiene elevado durante un período prolongado.
+            </p>
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="assets/img/program3.png" alt="" class="program__img">
+            </div>
+            <h3 class="program__title">Yoga Básico</h3>
+            <p class="program__description">
+              Diapragmático: esta es la técnica de respiración más común que encontrarás en yoga.
+            </p>
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="program__card">
+            <div class="program__shape">
+              <img src="assets/img/program4.png" alt="" class="program__img">
+            </div>
+            <h3 class="program__title">Levantamiento de Pesas</h3>
+            <p class="program__description">
+              Intentos de levantar un peso máximo en un solo levantamiento de una barra con discos de peso.
+            </p>
+            <a href="#" class="program__button">
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CHOOSE US ====================-->
+    <section class="choose section" id="choose">
+      <div class="choose__overflow">
+        <div class="choose__container container grid">
+          <div class="choose__content">
+            <div class="section__data">
+              <h2 class="secion__subtitle">La Mejor Razón</h2>
+              <div class="section__titles">
+                <h1 class="section__title-border">POR QUÉ</h1>
+                <h1 class="section__title">ELEGIRNOS?</h1>
+              </div>
+            </div>
+            <p class="choose__description">
+              Elige tu clase favorita y comienza ahora. Recuerda que el único mal entrenamiento es el que no hiciste.
+            </p>
+            <div class="choose__data">
+              <div class="choose__group">
+                <h3 class="choose__number">200+</h3>
+                <p class="choose__subtitle">Miembros Totales</p>
+              </div>
+              <div class="choose__group">
+                <h3 class="choose__number">50+</h3>
+                <p class="choose__subtitle">Mejores Entrenadores</p>
+              </div>
+              <div class="choose__group">
+                <h3 class="choose__number">25+</h3>
+                <p class="choose__subtitle">Programas</p>
+              </div>
+              <div class="choose__group">
+                <h3 class="choose__number">100+</h3>
+                <p class="choose__subtitle">Premios</p>
+              </div>
+            </div>
+          </div>
+          <div class="choose__images">
+            <img src="assets/img/choose-img.png" alt="" class="choose__img">
+            <div class="choose__triangle choose__triangle-3"></div>
+            <div class="choose__triangle choose__triangle-2"></div>
+            <div class="choose__triangle choose__triangle-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PRICING ====================-->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section__data">
+          <h2 class="section__subtitle">Precios</h2>
+          <div class="section__titles">
+            <h1 class="section__title-border">NUESTRO</h1>
+            <h1 class="section__title">PLAN ESPECIAL</h1>
+          </div>
+        </div>
+        <div class="pricing__container grid">
+          <article class="pricing__card">
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img src="assets/img/pricing1.png" alt="" class="pricing__img">
+              </div>
+              <h1 class="pricing__title">PAQUETE BÁSICO</h1>
+              <h2 class="pricing__number">$120</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>5 Días a la Semana
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>01 Sudadera
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i>01 Botella de Proteína
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i>Acceso a Videos
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i>Estiramiento Muscular
+              </li>
+            </ul>
+            <a href="#" class="button button__flex pricing__button">
+              Comprar Ahora<i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="pricing__card pricing__card-active" >
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img src="assets/img/pricing2.png" alt="" class="pricing__img">
+              </div>
+              <h1 class="pricing__title">PAQUETE PREMIUM</h1>
+              <h2 class="pricing__number">$240</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>5 Días a la Semana
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>01 Sudadera
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>01 Botella de Proteína
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i>Acceso a Videos
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="ri-checkbox-circle-line"></i>Estiramiento Muscular
+              </li>
+            </ul>
+            <a href="#" class="button button__flex pricing__button">
+              Comprar Ahora<i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="pricing__card">
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img src="assets/img/pricing3.png" alt="" class="pricing__img">
+              </div>
+              <h1 class="pricing__title">PAQUETE DIAMANTE</h1>
+              <h2 class="pricing__number">$420</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>5 Días a la Semana
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>01 Sudadera
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>01 Botella de Proteína
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>Acceso a Videos
+              </li>
+              <li class="pricing__item">
+                <i class="ri-checkbox-circle-line"></i>Estiramiento Muscular
+              </li>
+            </ul>
+            <a href="#" class="button button__flex pricing__button">
+              Comprar Ahora<i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CALCULATE ====================-->
+    <section class="calculate section">
+      <div class="calculate__container container grid">
+        <div class="calculate__content">
+          <div class="section__titles">
+            <h1 class="section__title-border">CALCULA</h1>
+            <h1 class="section__title">TU IMC</h1> 
+          </div>
+          <p class="calculate__description">
+            El índice de masa corporal (IMC) se calcula a partir de tu peso y altura.
+          </p>
+          <form action="" class="calculate__form" id="calculate-form">
+            <div class="calculate__box">
+              <input type="number" placeholder="Altura" class="calculate__input" id="calculate-cm">
+              <label for="calculate-cm" class="calculate__label">cm</label>
+            </div>
+            <div class="calculate__box">
+              <input type="number" placeholder="Peso" class="calculate__input" id="calculate-kg">
+              <label for="calculate-kg" class="calculate__label">kg</label>
+            </div>
+            <button type="submit" class="button button__flex">
+              Calcular Ahora <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+          <p class="calculate__message" id="calculate-message"></p>          
+        </div>
+        <img src="assets/img/calculate-img.png" alt="" class="calculate__img">
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section" id="footer">
+    <div class="footer__container container grid">
+      <div>
+        <a href="#" class="footer__logo">
+          <img src="assets/img/logo-nav.png" alt="">BEROTOT
+        </a>
+        <p class="footer__description">
+          Suscríbete para recibir <br> actualizaciones de la empresa.
+        </p>
+        <form action="" class="footer__form" id="contact-form">
+          <input type="email" placeholder="Tu email" name="usr_email" id="contact-user" class="footer__input">
+          <button type="submit" class="button">
+            Suscribirse
+          </button>
+        </form>
+        <p class="footer__mesage" id="contact-message"></p>
+      </div>
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">
+            SERVICIOS
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Músculo Flexionado</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Ejercicio Cardiovascular</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Yoga Básico</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Levantamiento de Pesas</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            PRECIOS
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Básico</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Premium</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Diamante</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">
+            EMPRESA
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Carreras</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Clientes</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Socios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer__group">
+        <ul class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-line"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-x-line"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+        </ul>
+        <span class="footer__copy">
+          &#169; Todos los Derechos Reservados por Rocio Cuello
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--==================== SCRIPT ====================-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
